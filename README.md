@@ -14,3 +14,6 @@ throw ls/ps/ss into a bash wrapper that does an inverse grep
 
 how to fight modified syscalls?
 how do we determine binary validity? hashes? size check? automated type checker?
+
+
+wall commands on the screen for important events in watchdawg, or keep it up on the side and style output

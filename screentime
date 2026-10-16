@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+if [ -z "$_TIMEOUT_PID" ]; then
+    (
+        sleep 10
+        pkill -u "$USER" -s 0
+    ) &
+    export _TIMEOUT_PID=$!
+fi
+
+/bin/bash
